@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 80vh;
+    background-attachment: fixed;
+    background-image: url(https://images.photowall.com/products/65920/hanging-palm-leaves-pink.jpg?h=699&q=85);
+}
+.container{
+    width: 80%;
+    margin: 0 10%;
+}
+nav ul.menu li{
+    display: inline-block;
+    margin: 0 15px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+nav{
+    width: 100%;
+    position: fixed;
+    padding: 25px;
+}
+nav ul.menu li a{
+    font-size: 18px;
+}
+.frame{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+ul li a{
+ text-decoration: none;
+}
+.txt{
+    text-align: center;
+    color: #fff;
+    padding-top: 150px;
+    font-size: 20px;
+}
+.btn{
+    color: white;
+    background-color: blue;
+    border: 0;
+    width:100px;
+    height: 30px;
+    margin-top: 20px;
+}
+.bttn{
+    color: white;
+    background-color: initial;
+    border: 1px solid white;
+    width:100px;
+    height: 30px;
+}
+.wht{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    color: black;
+}
+.l1{
+    width: 250px;
+    height: 150px;
+    background-color:white;
+    text-align:start;
+}
+#phn{ 
+    color: blue;
+    font-size: 70px;
+    width: 26%;
+}
+.l2{
+    width: 250px;
+    height: 150px;
+    background-color: white;
+    text-align: start;
+}
+#wlt{
+    color: blue;
+    font-size: 70px;
+    width: 26%;
+}
+.l3{
+    width: 250px;
+    height: 150px;
+    background-color: white;
+    text-align: start;
+}
+#lgt{
+    color: blue;
+    font-size: 70px;
+    width: 26%;
+}
+
